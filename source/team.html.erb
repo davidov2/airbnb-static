@@ -1,0 +1,38 @@
+<% team = ["paul", "pierre", "kevin"] %>
+
+<div class="text-center">
+    <div class="container">
+      <div class="row">
+
+      <% team.each do |member| %>
+      <div class="col-xs-6 col-md-4">
+        <img src="http://placehold.it/90x90" alt="" class="img-circle">
+        <p> <%= member %> </p>
+      </div>
+      <% end %>
+
+    </div>
+  </div>
+</div>
+
+<!-- POUR NE PAS REPETER CI DESSOUS:
+
+<div class="text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6 col-md-4">
+        <img src="http://placehold.it/90x90" alt="" class="img-circle">
+        <p>David</p>
+        </div>
+           <div class="col-xs-6 col-md-4">
+        <img src="http://placehold.it/90x90" alt="" class="img-circle">
+        <p>Louis</p>
+        </div>
+           <div class="col-xs-6 col-md-4">
+        <img src="http://placehold.it/90x90" alt="" class="img-circle">
+        <p>Simon</p>
+        </div>
+    </div>
+  </div>
+</div>
+ -->
